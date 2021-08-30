@@ -97,7 +97,7 @@ export default function Homepage() {
                 <>
                     <ImageBox>
                         <p> Name: {data.name}</p>
-                        <img src={data.image_url} height={210} width={210}/>
+                        <img src={data.image_url} height={210} width={210} alt=""/>
                         {/* {<p>Owner: {data.owner.user.username}</p>} */}
                         {/* <p>TokenID: {data.description} </p> */}
                         {/* <p>URL Link: {data.image_url} </p> */}
